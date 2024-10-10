@@ -4,7 +4,7 @@ installer_packages=(
     "rofi-wayland"
     "alacritty"
     "dunst"
-    "Thunar"
+    "dolphin"
     "xdg-desktop-portal-hyprland"
     "qt5-qtwayland"
     "qt6-qtwayland"

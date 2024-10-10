@@ -28,7 +28,7 @@ You can install the Hyprland Starter on real hardware (bare metal) or test it fi
 Just copy the following command into your terminal and execute.
 
 ```
-bash <(curl -s https://raw.githubusercontent.com/neckrom/hyprland-starter/neckrom/setup.sh)
+bash <(curl -s https://raw.githubusercontent.com/mylinuxforwork/hyprland-starter/main/setup.sh)
 ```
 
 > Hyprland does not officially support NVIDIA hardware. But many users have reported a successful installation. Please read: https://wiki.hyprland.org/Nvidia/
@@ -43,7 +43,7 @@ The script will install the following packages and the corresponding configurati
 - Browser: Firefox
 - Terminal: alacritty
 - Notification Service: dunst
-- File Manager: Thunar
+- File Manager: Dolphin
 - xdg-desktop-portal-hyprland
 - qt5-wayland
 - qt6-wayland
