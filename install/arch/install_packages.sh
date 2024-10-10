@@ -8,7 +8,7 @@ installer_packages=(
     "rofi-wayland"
     "alacritty"
     "dunst"
-    "thunar"
+    "dolphin"
     "xdg-desktop-portal-hyprland"
     "qt5-wayland"
     "qt6-wayland"
@@ -26,6 +26,7 @@ installer_packages=(
     "libadwaita"
     "jq"
     "python-gobject"
+    "brightnessctl"
 )
 
 installer_yay=(

@@ -11,10 +11,11 @@ Watch on YouTube: https://youtu.be/jc-vFSXpZF4
 ## Requirements
 
 Ths script supports the following distributions:
-* Arch Linux (+ Arch Linux based distros e.g., EndeavourOS, Manjaro, ...)
-* Fedora Linux
-* Nobara Linux
-* more to come soon...
+
+- Arch Linux (+ Arch Linux based distros e.g., EndeavourOS, Manjaro, ...)
+- Fedora Linux
+- Nobara Linux
+- more to come soon...
 
 ## Documentation (Wiki)
 
@@ -27,7 +28,7 @@ You can install the Hyprland Starter on real hardware (bare metal) or test it fi
 Just copy the following command into your terminal and execute.
 
 ```
-bash <(curl -s https://raw.githubusercontent.com/mylinuxforwork/hyprland-starter/main/setup.sh)
+bash <(curl -s https://raw.githubusercontent.com/neckrom/hyprland-starter/neckrom/setup.sh)
 ```
 
 > Hyprland does not officially support NVIDIA hardware. But many users have reported a successful installation. Please read: https://wiki.hyprland.org/Nvidia/
@@ -36,16 +37,16 @@ bash <(curl -s https://raw.githubusercontent.com/mylinuxforwork/hyprland-starter
 
 The script will install the following packages and the corresponding configurations:
 
-- Window Manager: hyprland 
-- Status Bar: waybar 
-- Launcher: rofi-wayland 
+- Window Manager: hyprland
+- Status Bar: waybar
+- Launcher: rofi-wayland
 - Browser: Firefox
-- Terminal: alacritty 
-- Notification Service: dunst 
+- Terminal: alacritty
+- Notification Service: dunst
 - File Manager: Thunar
-- xdg-desktop-portal-hyprland 
-- qt5-wayland 
-- qt6-wayland 
+- xdg-desktop-portal-hyprland
+- qt5-wayland
+- qt6-wayland
 - Lock screen: hyprlock
 
 You can find all shipped configurations here: https://github.com/mylinuxforwork/hyprland-starter/tree/main/dotfiles
